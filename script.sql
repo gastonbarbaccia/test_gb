@@ -1,11 +1,6 @@
-DROP DATABASE `proyecto2`;
---
--- Base de datos: `proyecto1`
---
-CREATE DATABASE  `proyecto2`;
--- --------------------------------------------------------
+DROP TABLE `usuarios`;
 
-USE `proyecto2`;
+USE `u666073011_devops`;
 
 --
 -- Estructura de tabla para la tabla `usuarios`

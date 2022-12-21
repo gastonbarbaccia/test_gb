@@ -4,10 +4,10 @@
 //funcion que se encargar de crear la conexion de la base de datos 
 function conexiondb(){
 	//datos del servidor y de la base de datos
-	$localhost = "database-1-ohio.capjeqwtb4vf.us-east-2.rds.amazonaws.com";
-	$username = "admin";
-	$password = "Inicio1234.";
-	$database = "proyecto2";
+	$localhost = "sql234.main-hosting.eu";
+	$username = "u666073011_devops";
+	$password = "z1[L$[foK9t";
+	$database = "u666073011_devops";
 
 	// crea la conexion con los datos pasados en la funcion mysqli()
 	$mysqli = new mysqli($localhost, $username ,$password , $database);

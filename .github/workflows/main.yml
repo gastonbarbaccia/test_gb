@@ -117,7 +117,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: staging
-      url: http://devops-dev.ga/gastonbarbaccia2/
+      url: http://devops-dev.ga/gastonbarbaccia
     needs: [Import_SQL]
     steps:
       - uses: actions/checkout@v2
@@ -128,4 +128,4 @@ jobs:
           user: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           localDir: "deploy/"
-          remoteDir: "gastonbarbaccia2/" 
+          remoteDir: "gastonbarbaccia/" 
